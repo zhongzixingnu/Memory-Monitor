@@ -16,7 +16,7 @@
 		<Item Name="Test" Type="Folder" URL="../Test">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="LabVIEW TestStand Process Memory Usage.vi" Type="VI" URL="../LabVIEW TestStand Process Memory Usage.vi"/>
+		<Item Name="Process Memory Monitor.vi" Type="VI" URL="../Process Memory Monitor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
@@ -92,7 +92,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Memory Monitor</Property>
 				<Property Name="INST_defaultDir" Type="Str">{5CA45991-D739-451F-8DEC-631E4AF53046}</Property>
 				<Property Name="INST_productName" Type="Str">Memory Monitor</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008010</Property>
 				<Property Name="MSI_arpCompany" Type="Str">National Instruments</Property>
@@ -137,7 +137,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{00F5AD67-480A-4A51-8541-2899887E7EE0}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Memory Monitor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Executable/NI_AB_PROJECTNAME.exe</Property>
@@ -148,10 +148,10 @@
 				<Property Name="Destination[1].path" Type="Path">../Executable/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5F0EAF19-F08E-4F3F-8451-C4599EA52A84}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8FD3DEC5-2582-4112-B969-50F3F9D7685C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/LabVIEW TestStand Process Memory Usage.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Process Memory Monitor.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>

@@ -1,0 +1,11 @@
+1. Install the Memory Monitor on Windows. It located under the "../Memory Monitor/Installer/.." folder.
+   If you have installed the LabVIEW 2016 or its runtime engine. you can open the Memory Monitor.exe under the "../Memory Monitor/Executable/.." folder.
+
+2. Process Name control is optional, if you let the name control empty, Memory Monitor will monitor the LabVIEW and TestStand Memory usage.
+   You can also fill the name with the process name you want to monitor.
+   Memory Monitor sets the default sampling interval as 3 seconds and the default log file path as "D:\log.csv". You can modify them as you desired.
+
+3. If there is no memory leak in the LabVIEW VI/application or TestStand sequence, when you stop the LabVIEW VI/application or TestStand sequence, the
+   final memory used value should be equal to the inital value. 
+
+4. When you click the STOP button, the Memory Monitor will stop recording. You can check the log file to view the result.
